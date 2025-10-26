@@ -1,6 +1,8 @@
 import Foundation
 
 public struct LongTermScheduler: Scheduler {
+  public init() { }
+
   public func schedule(
     card: Card,
     algorithm: FSRSAlgorithm,
